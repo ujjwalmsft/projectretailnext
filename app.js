@@ -1,6 +1,7 @@
 /*
 NPM
 */
+// Reference the packages we require so that we can use them in creating the bot
 var restify = require('restify');
 var builder = require('botbuilder');
 
