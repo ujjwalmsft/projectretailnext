@@ -1,18 +1,25 @@
 {
   "name": "xyzretailnextbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Code hack for retail next",
   "main": "app.js",
-   "scripts": {
-        "start": "node app.js" 
-    },
-    "dependencies": {
-    "botbuilder": "^3.5.1",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "botbuilder": "^3.8.2",
     "mongodb": "^2.2.19",
     "restify": "^4.3.0"
   },
   "devDependencies": {},
   "author": "Ujjwal",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ujjwalmsft/projectretailnext.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ujjwalmsft/projectretailnext/issues"
+  },
+  "homepage": "https://github.com/ujjwalmsft/projectretailnext#readme"
 }
-
