@@ -27,7 +27,8 @@ server.post('api/messages', connector.listen());
 Dialogs
 */
 //Intent dialog
-var luisUrl = 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/109f950e-11c6-462a-b84c-f3454a1fc79e?subscription-key=61fe645b6056470cba59a88b0d6d927d&verbose=true';
+var luisUrl = 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/98f1fa91-3aff-49f7-9e77-da8d74186555?subscription-key=7dc63d5e95c3478a8ed5a25da247ee6c&staging=true&verbose=true&timezoneOffset=0&spellCheck=true&q=';
+// var luisUrl = 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/109f950e-11c6-462a-b84c-f3454a1fc79e?subscription-key=61fe645b6056470cba59a88b0d6d927d&verbose=true';
 var luisRecognizer = new builder.LuisRecognizer(luisUrl);
 var intentDialog = new builder.IntentDialog({recognizers: [luisRecognizer]});
 
